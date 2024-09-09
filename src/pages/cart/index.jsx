@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { FaPlus } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import Logo from "../../assets/logo-tana-cesta.png";
 import { CartContext } from "../../CartContext.jsx";
+import Logo from "../../assets/logo-tana-cesta.png";
 
 const Cart = () => {
   const { cartItems, removeFromCart, updateQuantity } = useContext(CartContext);

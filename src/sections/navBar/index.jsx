@@ -1,10 +1,10 @@
-import { useState, useRef, useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
+import { FaBars, FaHeart, FaUser } from "react-icons/fa";
+import { TiShoppingCart } from "react-icons/ti";
 import { useNavigate } from "react-router-dom";
 import Logo from "../../assets/logo-tana-cesta.png";
 import Button from "../../components/Button/index";
 import Searchbar from "../../components/searchBar/index";
-import { TiShoppingCart } from "react-icons/ti";
-import { FaUser, FaHeart, FaBars } from "react-icons/fa";
 
 const NavbarComponent = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

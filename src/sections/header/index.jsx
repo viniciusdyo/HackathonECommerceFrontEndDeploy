@@ -1,8 +1,6 @@
-import Button from "../../components/Button/index";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaTwitterSquare } from "react-icons/fa";
+import { FaFacebookSquare, FaInstagram, FaTwitterSquare } from "react-icons/fa";
 import Logo from "../../assets/logo-tana-cesta.png";
+import Button from "../../components/Button/index";
 
 const Header = () => {
   return (
