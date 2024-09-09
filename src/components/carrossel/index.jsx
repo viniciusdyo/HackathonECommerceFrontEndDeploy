@@ -63,7 +63,7 @@ const ProductCarousel = ({ title, products }) => {
                 </div>
                 <div className="product-image md:w-full w-[80px]">
                   <img
-                    src={`./assets/products/${name
+                    src={`../../assets/${name
                       .split(" ")[0]
                       .toLowerCase()
                       .normalize("NFD")

@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { CartContext } from "../../CartContext.jsx";
+import { FaPlus } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import Logo from "../../assets/logo-tana-cesta.png";
-import { FaPlus } from "react-icons/fa";
+import { CartContext } from "../../CartContext.jsx";
 
 const Cart = () => {
   const { cartItems, removeFromCart, updateQuantity } = useContext(CartContext);
@@ -59,7 +59,7 @@ const Cart = () => {
               >
                 <div className="flex items-center space-x-4">
                   <img
-                    src={`./src/assets/products/${item.name
+                    src={`../../assets/${item.name
                       .split(" ")[0]
                       .toLowerCase()
                       .normalize("NFD")
